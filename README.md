@@ -1,4 +1,4 @@
-# Dual VAE Tuning
+# Dual Latent Space Tuning for Diffusability and Semantic Alignment (Flow Leash)
 
 Дообучение VAE-токенизатора для латентной диффузии с двумя дополнительными
 целями: семантическим выравниванием латента с признаками DINOv2 и диффузионным
