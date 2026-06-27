@@ -1,0 +1,6 @@
+base: base.yaml
+loss:
+  vfm_weight: 0.0
+  critic_weight: 0.0
+io:
+  out_dir: runs/vae_base

@@ -1,0 +1,8 @@
+torch>=2.1
+torchvision>=0.16
+diffusers>=0.27
+lpips>=0.1.4
+scipy>=1.10
+numpy>=1.24
+pyyaml>=6.0
+pillow>=9.5

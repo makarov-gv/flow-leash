@@ -1,0 +1,19 @@
+base: base.yaml
+data:
+  latent_dir: runs/latents/base
+sit:
+  preset: S
+  patch_size: 2
+  num_classes: 1000
+  class_dropout: 0.1
+train:
+  batch_size: 64
+  lr: 1.0e-4
+  amp: true
+  use_ema: true
+  ema_decay: 0.9999
+  t_dist: uniform
+  max_steps: 80000
+  log_every: 100
+io:
+  out_dir: runs/critic

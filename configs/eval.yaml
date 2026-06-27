@@ -1,0 +1,12 @@
+base: base.yaml
+data:
+  root: data/imagenet/val
+eval:
+  vae_ckpt: runs/vae_ours/vae.pt
+  gen_ckpt: runs/gen/model.pt
+  n_samples: 50000
+  n_recon: 50000
+  batch_size: 64
+  steps: 50
+  sampler: heun
+  cfg_scale: 1.0

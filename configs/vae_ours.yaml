@@ -1,0 +1,8 @@
+base: base.yaml
+loss:
+  vfm_weight: 0.5
+  critic_weight: 0.1
+critic:
+  warmup_steps: 2000
+io:
+  out_dir: runs/vae_ours
